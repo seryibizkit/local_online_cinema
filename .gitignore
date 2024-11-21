@@ -9,3 +9,4 @@ venv/index.html
 venv/mock_some.py
 /.idea
 pyvenv.cfg
+.gitignore
