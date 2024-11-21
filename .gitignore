@@ -1,0 +1,11 @@
+/.venv
+/venv/bin
+venv/include
+venv/lib
+venv/lib64
+venv/static/video
+venv/static/thumbnails
+venv/index.html
+venv/mock_some.py
+/.idea
+pyvenv.cfg
