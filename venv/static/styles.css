@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('5594016.jpg');
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.video-player {
+    width: 60%;
+    padding: 20px;
+}
+
+.video-list {
+    width: 40%;
+    padding: 0px;
+    list-style: outside;
+}
+
+.video-list li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.video-list li img {
+    width: 100px;
+    height: 75px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}

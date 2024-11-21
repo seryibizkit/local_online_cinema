@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body class="container">
+    <div class="video-list">
+        <h2>Video List</h2>
+        <ul id="video-list"></ul>
+    </div>
+    <div class="video-player">
+        <video id="video-player" controls>
+        </video>
+    </div>
+    <script src="static/app.js"></script>
+</body>
+</html>
